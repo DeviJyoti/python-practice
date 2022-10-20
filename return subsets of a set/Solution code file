@@ -1,3 +1,6 @@
+//PYTHON ASSIGNMENT-1 
+//QUESTION-1
+
 list=[1,2,3,4,5]
 n=len(list)
 
