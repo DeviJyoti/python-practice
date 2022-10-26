@@ -1,0 +1,13 @@
+//LINK:-https://www.codingninjas.com/codestudio/guided-paths/basics-of-python/content/118792/offering/1461391
+
+from os import *
+from sys import *
+from collections import *
+from math import *
+
+base, exponent = map(int, input().split())
+result = 1
+while exponent != 0:
+    result *= base
+    exponent-=1
+print(str(result))
