@@ -1,0 +1,16 @@
+//LINK:-https://www.codingninjas.com/codestudio/guided-paths/basics-of-python/content/118792/offering/1461390
+
+#Your code goes here
+
+n=int(input())
+esum=0
+osum=0
+while n>0:
+    c=n%10
+    if c%2==0:
+        esum=esum+c
+    else:
+        osum=osum+c
+    n=n//10
+print(esum,osum)
+
