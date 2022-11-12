@@ -1,4 +1,4 @@
-//LINK:-https://www.codingninjas.com/codestudio/guided-paths/basics-of-python/content/118792/offering/1461389
+#LINK:-https://www.codingninjas.com/codestudio/guided-paths/basics-of-python/content/118792/offering/1461389
 
 from os import *
 from sys import *
