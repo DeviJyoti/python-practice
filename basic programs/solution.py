@@ -12,7 +12,9 @@ g. Print the fibonacci series
 
 #CODE:-
 import math
+
 #1.a find maximum of list
+
 print("\nPROGRAM 1.a-->")
 # Declaring a list with random integers.
 list1 = [4, -4, 8, -9, 1]
@@ -21,7 +23,12 @@ list1 = [4, -4, 8, -9, 1]
 maxValue = max(list1)
 # Printing value stored in maxValue.
 print(maxValue)
+
+
+
+
 #1.b GCD of two numbers
+
 # math module contains the gcd function
 print("\nPROGRAM 1.b-->")
 # now, let's calculate the gcd of 2 numbers.
@@ -30,7 +37,11 @@ x = int(input("enter first number : "))
 y = int(input("enter second number : "))
 hcf = math.gcd(x,y)
 print(f"The GCD of {x} and {y} is {hcf}.")
+
+
+
 #1.c SQUARE ROOT OF A NUMBER
+
 print("\nPROGRAM 1.c-->")
 number = int(input("enter the number : "))
 sqrtOfNumber = math.sqrt(number)
@@ -50,7 +61,11 @@ else:
 print(num, "is a prime number")
 else:
 print(num, "is not a prime number")
+
+
+
 #1.e PRINT FIRST N PRIME NUMBERS
+
 print("\nPROGRAM 1.e-->")
 numr=int(input("Enter range:"))
 print("Prime numbers:",end=' ')
@@ -60,7 +75,11 @@ if(n%i==0):
 break
 else:
 print(n,end=' ')
+
+
+
 #1.f REMOVE DUPLICATE FROM THE LIST
+
 print("\nPROGRAM 1.f-->")# Python 3 code to demonstrate
 # removing duplicated from list
 # using set()
@@ -76,7 +95,11 @@ test_list = list(set(test_list))
 # distorted ordering
 print("The list after removing duplicates : "
 + str(test_list))
+
+
+
 #1.g PRINT FIBPNACCI SERIES
+
 print("PROGRAM 1.g-->")
 # Program to display the Fibonacci sequence up to n-th term
 nterms = int(input("enter the number of terms :- "))
