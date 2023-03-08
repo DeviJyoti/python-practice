@@ -1,6 +1,5 @@
-//LINK:-https://www.codingninjas.com/codestudio/guided-paths/basics-of-python/content/118792/offering/1461392
-
-        
+#LINK:-https://www.codingninjas.com/codestudio/guided-paths/basics-of-python/content/118792/offering/1461392
+#solution:-
 def func(n):
     fact=1;
     if n<0:
