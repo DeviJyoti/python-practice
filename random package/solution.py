@@ -4,7 +4,9 @@ a. Print N random numbers ranging from 100 to 500
 b. Print 10 random strings whose length between 3 and
 5.
 """
+
 CODE :-
+  
 #program 17
 #a. print N random numbers ranging from 100 to 500
 import random
